@@ -10,7 +10,7 @@
 
     <h3>Agregar Apartamento</h3>
     <div class="container">
-    <form method="post">
+    <form action="{{request.path}}" method="post">
 
         <label for="direccion">Dirección</label><input class="form-control" type="text" name="direccion"/>
         <label for="area">Área Constuida</label><input class="form-control" type="text" name="area"/>
